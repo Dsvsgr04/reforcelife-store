@@ -3,7 +3,7 @@
 //  Handles: Cart, Auth, Checkout, Product Detail, Admin
 // ═══════════════════════════════════════════════════════════
 
-const API = 'https://reforcelife-store.onrender.com/api';
+const API = 'https://reforcelife-store.onrender.com/api';git add .
 
 // ── State ───────────────────────────────────────────────────
 let cart = JSON.parse(localStorage.getItem('rl_cart') || '[]');
