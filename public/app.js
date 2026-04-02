@@ -662,7 +662,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Load PayPal SDK
   const ppScript = document.createElement('script');
-  ppScript.src = `https://www.paypal.com/sdk/js?client-id=${window.PAYPAL_CLIENT_ID||'test'}&currency=USD`;
+ ppScript.src = 'https://www.paypal.com/sdk/js?client-id=sb&currency=USD';
   ppScript.onload = () => { if (window._pendingOrderId) initPayPalButtons(window._pendingOrderId); };
   document.head.appendChild(ppScript);
 });
