@@ -3,7 +3,7 @@
 //  Handles: Cart, Auth, Checkout, Product Detail, Admin
 // ═══════════════════════════════════════════════════════════
 
-const API = 'https://reforcelife-store.onrender.com';
+const API = 'https://reforcelife-store.onrender.com/api';
 
 
 // ── State ───────────────────────────────────────────────────
